@@ -1,9 +1,0 @@
-Ќ §ў ­ЁҐ: ‘®§¤ ­ЁҐ в®ў а  зҐаҐ§ API 
-ЏаҐ¤гб«®ўЁҐ: API ¤®бвгЇ­®, в Ў«Ёж  products Їгбв  
- ЈЁ: 
-1. ЋвЇа ўЁвм POST-§ Їа®б ­  https://api.restful-api.dev/objects б вҐ«®¬ {"name": "Test Phone", "data": {"price": 999}} 
-2. Џа®ўҐаЁвм, зв® бв вгб-Є®¤ ®вўҐв  - 200 OK Ё«Ё 201 Created 
-3. Џа®ўҐаЁвм, зв® ў вҐ«Ґ ®вўҐв  Ґбвм Ї®«Ґ name Ё ®­® а ў­® "Test Phone" 
-4. ‚лЇ®«­Ёвм SQL-§ Їа®б SELECT * FROM products WHERE name = 'Test Phone' 
-5. ‘а ў­Ёвм ¤ ­­лҐ Ё§ API Ё SQL 
-Ћ¦Ё¤ Ґ¬л© аҐ§г«мв в: бв вгб-Є®¤ 200/201, name = "Test Phone", ў Ў §Ґ Ґбвм § ЇЁбм б в ЄЁ¬Ё ¦Ґ ¤ ­­л¬Ё 
