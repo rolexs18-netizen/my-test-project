@@ -1,0 +1,9 @@
+Название: Создание товара через API 
+Предусловие: API доступно, таблица products пуста 
+Шаги: 
+1. Отправить POST-запрос на https://api.restful-api.dev/objects с телом {"name": "Test Phone", "data": {"price": 999}} 
+2. Проверить, что статус-код ответа - 200 OK или 201 Created 
+3. Проверить, что в теле ответа есть поле name и оно равно "Test Phone" 
+4. Выполнить SQL-запрос SELECT * FROM products WHERE name = 'Test Phone' 
+5. Сравнить данные из API и SQL 
+Ожидаемый результат: статус-код 200/201, name = "Test Phone", в базе есть запись с такими же данными 
