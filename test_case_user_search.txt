@@ -1,0 +1,9 @@
+Название: Поиск пользователя по email через API и БД
+Предусловие: API доступно, таблица users_api заполнена тестовыми данными
+Шаги:
+1. Отправить GET-запрос на https://jsonplaceholder.typicode.com/users
+2. Найти пользователя с email = 'Chaim_McDermott@dana.io' (id=9)
+3. Запомнить значение поля name
+4. Выполнить SQL-запрос: SELECT name FROM users_api WHERE email = 'Chaim_McDermott@dana.io'
+5. Сравнить name из API и SQL
+Ожидаемый результат: name в API и SQL совпадают ('Glenna Reichert')
